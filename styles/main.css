@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    font-family: 'Andale Mono', monospace;
 }
 
 #content {
@@ -26,7 +27,6 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: Andale Mono, monospace;
     font-size: 3vw;
   }
 
@@ -48,7 +48,6 @@ body, html {
 .nav-button {
     color: white;
     text-decoration: none;
-    font-family: Andale Mono, monospace;
 }
 #navbar {
     background-color: #04789b;
@@ -62,3 +61,53 @@ body, html {
     align-items: center;
     z-index: 2;
 }
+
+#blog-card-heading {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+  
+ .card {
+     flex: 0 0 auto;
+     text-align: center;
+     background-color: silver;
+     border-radius: 15%;
+     margin: 30px 0px;
+     box-shadow: 5px 10px #04789b;
+ }
+ 
+ img.card-img {
+    width: 350px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+ }
+ 
+ #footer {
+     position: relative;
+     top: 10%;
+     height: 100px;
+     width: 100%;
+     margin: 0px -10px;
+     padding: 10px;
+     background-color: #04789b;
+     color: #505050;
+     text-align: center;
+ }
+ p.footer {
+    text-align: center;
+ }
+
+ #content-heading {
+     width: 50%;
+     margin: auto;
+ }
+
+ hr {
+     border-top: solid #04789b;
+     width: 75%;
+ }
