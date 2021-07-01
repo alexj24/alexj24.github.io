@@ -33,10 +33,17 @@ body, html {
 #hero-button {
     margin: auto;
     width: 50%;
-    text-align: center;
     border-radius: 20px;
     background-color: white;
     font-size: 90%; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-button:hover {
+    background-color: Gainsboro;
 }
 
 .button {
@@ -48,7 +55,18 @@ body, html {
 .nav-button {
     color: white;
     text-decoration: none;
+    display: inline-block;
 }
+
+.nav-button-container {
+    width: 20%;
+    text-align: center;
+}
+
+.nav-button-container:hover {
+    background-color: #046380;
+}
+
 #navbar {
     background-color: #04789b;
     position: fixed;
@@ -76,17 +94,21 @@ body, html {
      flex: 0 0 auto;
      text-align: center;
      background-color: silver;
-     border-radius: 15%;
+     border-radius: 30px;
      margin: 30px;
      width: 350px;
      height: 500px;
-     box-shadow: 5px 10px #04789b;
+     
+ }
+
+ .card:hover {
+    box-shadow: 5px 10px #787879;
  }
  
  img.card-img {
     width: 100%;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
  }
  
  #footer {
@@ -113,3 +135,21 @@ body, html {
      border-top: solid #04789b;
      width: 75%;
  }
+
+ #other-button {
+    margin: auto;
+    border-radius: 20px;
+    font-size: 90%; 
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04789b; 
+    color: white; 
+    width: 350px;
+ }
+
+#other-button:hover {
+    box-shadow: 5px 10px #046380;
+}
+ /* :hover for view more button color #046380 */
