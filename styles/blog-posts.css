@@ -9,3 +9,11 @@ img {
     margin: auto;
     display: block;
 }
+
+#main-image {
+    width: 100%;
+}
+
+.content {
+    margin: 20px 0px;
+}
